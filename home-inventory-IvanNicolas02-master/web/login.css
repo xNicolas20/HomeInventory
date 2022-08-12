@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 7, 2022, 8:49:21 PM
+    Author     : ivanc
+*/
+
+/*
+    cite: https://www.w3schools.com/css/css_table.asp
+    cite: https://www.w3schools.com/howto/howto_css_responsive_header.asp
+    cite: https://www.w3schools.com/css/css_form.asp
+*/
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #0d46f2;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header h1.logo {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  padding: 12px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.h2{
+  width: 70%;
+  margin-left: 40px;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.login input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login input[type=submit] {
+  width: 100%;
+  background-color: #0d46f2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.login {
+  display: inline-block;
+  width: 20%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 40px;
+}
